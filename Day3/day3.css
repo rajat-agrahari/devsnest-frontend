@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+  
+  }
+  
+  body{
+    background-color: #d7dbdb;
+    padding: 20px;
+    border:2px solid black;
+    margin: 2rem;
+  
+  }
+  
+  
+  #one {
+    margin: 50px 100px 50px ;
+    color:darkblue;
+    float:left;
+  
+    }
+    .vertical{
+      position : fixed;
+      top: 0%;
+      height: 100vh;
+      left: 50%;
+      width: 5px;
+      background-color: black;
+      z-index: 10;
+  }
+  
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+  
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #cccccc;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #cccccc;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  /*.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }*/
+  .h1
+  {
+    border-left: lightblue;
+  }
