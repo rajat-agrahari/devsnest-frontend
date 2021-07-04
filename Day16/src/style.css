@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+   width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+.card{
+    display: inline-block;
+    border: 10px solid #000;
+    margin: auto;
+    width: 205px;
+    height: 218px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.box:nth-child(odd){
+    background-color: #000;
+}
+.box:nth-child(even){
+    background-color: #fff
+}
+.reverse-row{
+    flex-direction: row-reverse;
+}
