@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.app{
+  width: 40%;
+  margin: auto;
+  background-color: #b4b1b4;
+  padding: 0.7rem;
+}
+.container{
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 0.7rem;
+  padding:  0.5rem 1rem;
+}
+.para{
+  padding: 1rem 0;
+}
