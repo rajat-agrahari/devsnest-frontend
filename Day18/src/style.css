@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+   width: 100vw;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+.card{
+    display: flex;
+    border: 10px solid #000;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 218px;
+}
+
+.box{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+
+}
