@@ -1,0 +1,13 @@
+.app{
+  margin: 2rem;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+} 
+button{
+  cursor: pointer;
+}
+h3{
+  display: block;
+  text-align: center;
+}
